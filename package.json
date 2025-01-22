@@ -23,6 +23,7 @@
     "dockerbuild": "docker build -t bolt-ai:development -t bolt-ai:latest --target bolt-ai-development .",
     "typecheck": "tsc",
     "typegen": "wrangler types",
+    "postinstall": "npm install -g pnpm",
     "preview": "pnpm run build && pnpm run start",
     "prepare": "husky"
   },
